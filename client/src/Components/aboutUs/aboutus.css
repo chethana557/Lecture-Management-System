@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.backImgA {
+  height: 100vb;
+  width: 100%;
+  /* padding-bottom: "40px"; */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.HomeButton {
+  background-color: #397fa3;
+  color: white;
+  margin-top: 20px;
+}
+
+.about-section {
+  padding: 20px;
+  text-align: center;
+  /* Change to semi-transparent background */
+  color: transparent;
+}
+
+.title {
+  color: #397fa3;
+  /* Change title color to a darker shade */
+  font-size: 28px;
+}
+
+.white-containerAb {
+  
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.837);
+  /* Change to semi-transparent background */
+  color: rgba(0, 0, 0, 0.5);
+  /* margin-bottom: 40px; */
+  /* Add margin bottom to create space between sections */
+}
+
+.white-containerAb .white-container-borderA {
+  border: #6d6d6d 1px solid;
+  padding: 30px;
+  
+}
+
+.divider {
+  width: 60%;
+  height: 2px;
+  background-color: #3980a3a5;
+  margin: 10px auto;
+  /* Center the divider */
+}
+
+.containerAb {
+  position: relative;
+  top: 100px;
+  left: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 1000px;
+  
+  text-align: center;}
+
+.introAb{
+  text-align: center;
+  font-size: 20px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  flex: 1;
+  margin: 0 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card .card-name {
+  overflow: hidden;
+  background-color: #397fa3;
+}
+
+.card .card-name h2 {
+  background-color: #397fa3;
+  color: white;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.container p.role {
+  text-align: center;
+}
+
+.details_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.team_logo img {
+  max-width: 100px;
+}
+
+.divider_y {
+  width: 2px;
+  height: 120px;
+  background-color: #397fa3;
+
+  margin: 0 20px;
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactDetails .email {
+  margin-right: 10px;
+  color: #397fa3;
+}
+
+.contactDetails .phone {
+  margin-right: 10px;
+  color: #fff;
+  text-align: left;
+}
+
+.contactDetails div {
+  margin: 0px 0;
+}

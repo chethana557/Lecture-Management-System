@@ -1,0 +1,30 @@
+.timetable-back{
+    background-color: aqua;
+    background-image: url('../../assets/pictures/Admin bg.png');
+    display: grid;
+    height: 100%;
+    
+    
+
+}
+.about-sectionAbc {
+    padding: 50px;
+    text-align: center;
+  
+    /* Change to semi-transparent background */
+    color: white;
+  }
+  
+  .titleAbc {
+    color: #397fa3;
+    /* Change title color to a darker shade */
+    font-size: 28px;
+  }
+  
+  .dividerAbc {
+    width: 75%;
+    height: 2px;
+    background-color: #397fa3;
+    margin: 10px auto;
+    /* Center the divider */
+  }

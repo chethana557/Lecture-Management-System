@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.backImgAB {
+  height: 100%;
+  width: 100%;
+  /* padding-bottom: "40px"; */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.HomeButtonA {
+  background-color: #397fa3;
+  color: white;
+  margin-top: 20px;
+}
+
+.about-sectionA {
+  padding: 50px;
+  text-align: center;
+
+  /* Change to semi-transparent background */
+  color: white;
+}
+
+.titleA {
+  color: #397fa3;
+  /* Change title color to a darker shade */
+  font-size: 28px;
+}
+
+.white-containerA {
+  padding: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.837);
+  /* Change to semi-transparent background */
+  color: rgba(0, 0, 0, 0.5);
+  /* margin-bottom: 40px; */
+  /* Add margin bottom to create space between sections */
+}
+
+.white-containerA .white-container-borderA {
+  border: #6d6d6d 1px solid;
+  padding: 30px;
+}
+
+.dividerA {
+  width: 60%;
+  height: 2px;
+  background-color: #397fa3;
+  margin: 10px auto;
+  /* Center the divider */
+}
+
+.containerA {
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* padding: 20px;
+  top: 50px;
+  left: 30px;
+  bottom: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 95%;
+  
+  text-align: center; */
+}
+
+.rowA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardA {
+  flex: 1;
+  margin: 0 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.cardA:hover {
+  transform: translateY(-5px);
+}
+
+.cardA .card-nameA {
+  overflow: hidden;
+  background-color: #397fa3;
+}
+
+.cardA .card-nameA h2 {
+  background-color: #397fa3;
+  color: white;
+  padding: 10px 0;
+}
+
+.containerA p.role {
+  text-align: center;
+}
+
+.details_containerA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.team_logoA img {
+  max-width: 100px;
+}
+
+.divider_yA {
+  width: 2px;
+  height: 120px;
+  background-color: #397fa3;
+
+  margin: 0 20px;
+}
+
+.contactDetailsA {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactDetailsA .emailA {
+  margin-right: 10px;
+  color: #397fa3;
+}
+
+.contactDetailsA .phoneA {
+  margin-right: 10px;
+  color: #397fa3;
+  text-align: left;
+}
+
+.contactDetailsA div {
+  margin: 0px 0;
+}
+
+/* 
+    max-width: 30px;
+    fill: white;
+    Set fill color 
+*/
